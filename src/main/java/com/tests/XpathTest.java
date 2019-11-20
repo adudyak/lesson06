@@ -41,8 +41,6 @@ public class XpathTest {
 
     /**
      * Open page, grab and compare prices
-     *
-     * @return
      */
     @Test
     public void testComparePricesTest() {
@@ -62,6 +60,9 @@ public class XpathTest {
     }
 
     @Test
+    /**
+     * Print symbols
+     */
     public void testSymbolsTest() {
         // Open page
         driver.get("https://unicode-table.com/ru/");
